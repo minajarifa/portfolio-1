@@ -1,0 +1,53 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+  /* background-color: lightblue; */
+}
+/* shared style */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100; */
+}
+
+.logo h2{
+    font-size: 45px; 
+    font-weight:900;
+}
+.color-orange{
+    color: #FD7E0A
+}
+/* main style */
+header{
+    background-color: #FFF8F3;
+    padding-top: 50px;
+    text-decoration: none:
+
+}
+.btn{
+    background-color: #FD7E0A
+}
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red ; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+nav .menu{
+    display: flex;
+   list-style-type: none;
+   gap: 51px; 
+}
+nav .menu a {
+    font-size: 20px;
+    color: #575757
+}

@@ -9,3 +9,7 @@ nav li {
 nav li:hover{
   background-color: aqua;
 }
+footer{
+  align-items: center;
+  text-align: center;
+}

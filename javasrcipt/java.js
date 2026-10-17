@@ -4,11 +4,19 @@ orange *= 10;
 
 const frined = ["Arifa", "Asma", "Nusrat", "Sumaiya", "Sadia", "Mim"];
 // console.log(frined);
-for(const num of frined){
-    // console.log(num)
+for (const num of frined) {
+  // console.log(num)
 }
 
-for(let i = 0; i<5 ; i++){
-console.log(i)
+for (let i = 0; i < 5; i++) {
+  // console.log(i)
 }
+console.time("time");
+// const startTime= performance.now()
+for (let i = 0; i <= 500; i++) {
+  console.log(i);
+}
+// const endTime= performance.now()
+console.timeEnd("time");
 
+// console.log(`This code took  ${endTime- startTime} ms` )

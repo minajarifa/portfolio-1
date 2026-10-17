@@ -3,8 +3,12 @@ orange *= 10;
 // console.log(orange)
 
 const frined = ["Arifa", "Asma", "Nusrat", "Sumaiya", "Sadia", "Mim"];
-console.log(frined);
+// console.log(frined);
 for(const num of frined){
-    console.log(num)
+    // console.log(num)
+}
+
+for(let i = 0; i<5 ; i++){
+console.log(i)
 }
 
